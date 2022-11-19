@@ -151,7 +151,12 @@ public class Lab6_JoseLobo {
         }//for
         return res;
     }//dijitos
-
+    
+    /*
+    El menor a mayor toma un array y busca cual es el menor numero de estos
+    el menor de estos se le añade a otra array y cambia el array original a
+    un numero que no pase por el ancho que analiza
+    */
     public static int[] menormayor(int[] base) {
         int[] temp = new int[base.length];
         for (int i = 0; i < base.length; i++) {
